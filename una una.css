@@ -1,0 +1,38 @@
+/* Import Google font - Poppins */
+@import url(https://fonts.google.com/specimen/Merriweather);
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+
+.app-button{
+    list-style: none;
+    text-align: center;
+    background-color: #01AAAD;
+    width: 150px;margin:0;
+    line-height: 60px;
+}
+
+
+.button {
+    position: relative ;
+    padding: 12px 22px ;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    color:black;
+    border: 2cap;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer ;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0,1) ;
+    width: 130px;
+    height: 50px;
+}
+
+.button:active {
+    transform: scale(0.96 )
+}
